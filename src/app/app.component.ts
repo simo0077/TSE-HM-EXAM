@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+// @ts-ignore
+import users from './Json files/users.json';
 
 @Component({
   selector: 'app-root',
@@ -8,3 +10,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'exam-app';
 }
+
