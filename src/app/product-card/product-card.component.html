@@ -1,10 +1,10 @@
   <div class="card" style="width: 18rem;">
-    <img src="/assets/product_image.jpg" class="card-img-top" alt="...">
+    <img src="{{product.image}}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">{{product.label}}</h5>
       <p class="card-text">{{product.description}}</p>
       <div class="row justify-content-around">
-        <a [routerLink]="['/product', 2]" class="btn btn-primary col-6">Go somewhere</a>
+        <a [routerLink]="['/product', product.id]" class="btn btn-primary col-6">Go somewhere</a>
         <p class="col-4 text-end">{{product.price}}$</p>
       </div>
 

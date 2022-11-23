@@ -23,8 +23,6 @@ export class ProductsListComponent implements OnInit {
       )
   }
 
-  log() {
-    console.log(this.products);
-  }
+
 
 }

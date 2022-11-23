@@ -9,7 +9,6 @@ import { ProductsListComponent } from './products-list/products-list.component';
 import { UsersListComponent } from './users-list/users-list.component';
 import { OrdersListComponent } from './orders-list/orders-list.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
-import { ProductComponent } from './product/product.component';
 import { ProductCardComponent } from './product-card/product-card.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 
@@ -21,7 +20,6 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     UsersListComponent,
     OrdersListComponent,
     ContactFormComponent,
-    ProductComponent,
     ProductCardComponent,
     ProductDetailsComponent
   ],
