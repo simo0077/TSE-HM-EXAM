@@ -1,21 +1,11 @@
 <h1> A list of all the products </h1>
 <hr>
+<button (click)="log()"></button>
 <div class="row">
-  <div class="col-4 py-5">
-    <app-product-card></app-product-card>
+  <div class="col-4 py-5"  *ngFor="let cproduct of products" >
+    <app-product-card [product]="cproduct"></app-product-card>
   </div>
-  <div class="col-4 py-5">
-    <app-product-card></app-product-card>
-  </div>
-  <div class="col-4 py-5">
-    <app-product-card></app-product-card>
-  </div>
-  <div class="col-4 py-5">
-    <app-product-card></app-product-card>
-  </div>
-  <div class="col-4 py-5">
-    <app-product-card></app-product-card>
-  </div>
+
 
 
 </div>
