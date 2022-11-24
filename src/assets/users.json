@@ -1,0 +1,48 @@
+[
+  {
+    "id" : 1,
+    "first_name": "Mari",
+    "last_name": "agacha",
+    "phone_number": "023561521",
+    "address": "rue 12",
+    "email": "agacha.mari@gmail.com"
+  },
+  {
+    "id" : 2,
+    "first_name": "Louis",
+    "last_name": "Garo",
+    "phone_number": "0548698475",
+    "address": "rue12",
+    "email": "garo.1@gmail.fr"
+  },
+  {
+    "id" : 3,
+    "first_name": "Piere",
+    "last_name": "Jordan",
+    "phone_number": "0578964582",
+    "address": "rue45",
+    "email": "jor.2@gmail.fr"
+  },
+  {
+    "id" : 4,
+    "first_name": "Isaq",
+    "last_name": "mero",
+    "phone_number": "0212475698",
+    "address": "boulevard les champs",
+    "email": "mero.214@hotmail.com"
+  },
+  {
+    "id" : 5,
+    "first_name": "sori",
+    "last_name": "zenim",
+    "phone_number": "0214879653",
+    "address": "rue 78 ",
+    "email": "ze.45@gmail.com"
+  }
+]
+
+
+
+
+
+
