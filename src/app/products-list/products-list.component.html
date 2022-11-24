@@ -1,1 +1,14 @@
-<p>products-list works!</p>
+<h1> A list of all the products </h1>
+<hr>
+
+<div class="row">
+  <div class="col-4 py-5"  *ngFor="let cproduct of products" >
+    <app-product-card [product]="cproduct"></app-product-card>
+  </div>
+
+
+
+</div>
+
+
+
