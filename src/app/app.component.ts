@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-// @ts-ignore
-import users from './Json files/users.json';
+
+import users from '../assets/users.json';
+
 
 @Component({
   selector: 'app-root',

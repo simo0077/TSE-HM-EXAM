@@ -1,5 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import users from "../Json files/users.json";
+
+
+
+import users from "../../assets/users.json";
+import {User} from "../Entities/Users";
+import {UserService} from "../user.service";
 
 @Component({
   selector: 'app-users-list',
@@ -8,9 +13,22 @@ import users from "../Json files/users.json";
 })
 export class UsersListComponent implements OnInit {
 
-  constructor() { }
+  UserList: User[] = [];
+  showUser(){
+    this.userservice.getUser()
+      .subscribe((data: User[]) => this.UserList = data)
+
+  }
+
+  constructor(private userservice: UserService) { }
 
   ngOnInit(): void {
+    this.showUser();
+
   }
-  UserList:{first_name : string, last_name : string, phone_number: string, address: string, email: string;}[]= users
+  log(){
+    console.log(this.UserList)
+  }
+
+
 }

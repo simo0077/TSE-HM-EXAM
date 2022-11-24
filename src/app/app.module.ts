@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import {HttpClientModule} from "@angular/common/http";
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,6 +14,9 @@ import { OrdersListComponent } from './orders-list/orders-list.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ProductComponent } from './product/product.component';
 
+import { ListCardComponent } from './list-card/list-card.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,11 +25,17 @@ import { ProductComponent } from './product/product.component';
     UsersListComponent,
     OrdersListComponent,
     ContactFormComponent,
-    ProductComponent
+
+    ProductComponent,
+    ListCardComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+
+    HttpClientModule
+
 
   ],
   providers: [],
