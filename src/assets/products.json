@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "product 1",
+    "description": "description",
+    "price": "111.11",
+    "image": "/assets/product_image.jpg"
+  },
+  {
+    "id": 2,
+    "label": "product 2",
+    "description": "description",
+    "price": "111.11",
+    "image": "/assets/product_image.jpg"
+  },
+  {
+    "id": 3,
+    "label": "product 3",
+    "description": "description",
+    "price": "111.11",
+    "image": "/assets/product_image.jpg"
+  }
+]

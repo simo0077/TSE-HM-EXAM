@@ -1,1 +1,28 @@
-<p>user-details works!</p>
+<h1> The details of : {{user.first_name}} </h1>
+<hr>
+
+<form>
+  <div class="mb-3">
+    <label  class="form-label">First name</label>
+    <input type="text" class="form-control" disabled placeholder="{{user.first_name}}" >
+  </div>
+  <div class="mb-3">
+    <label  class="form-label">Last name</label>
+    <input type="text" class="form-control" disabled placeholder="{{user.last_name}}" >
+  </div>
+  <div class="mb-3">
+    <label  class="form-label">phone number</label>
+    <input type="text" class="form-control" disabled placeholder="{{user.phone_number}}" >
+  </div>
+  <div class="mb-3">
+    <label  class="form-label">address</label>
+    <input type="text" class="form-control" disabled placeholder="{{user.address}}" >
+  </div>
+  <div class="mb-3">
+    <label  class="form-label">email</label>
+    <input type="text" class="form-control" disabled placeholder="{{user.email}}" >
+  </div>
+
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

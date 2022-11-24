@@ -1,0 +1,14 @@
+  <div class="card" style="width: 18rem;">
+    <img src="{{product.image}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{product.label}}</h5>
+      <p class="card-text">{{product.description}}</p>
+      <div class="row justify-content-around">
+        <a [routerLink]="['/product', product.id]" class="btn btn-primary col-6">Go somewhere</a>
+        <p class="col-4 text-end">{{product.price}}$</p>
+      </div>
+
+    </div>
+  </div>
+
+
