@@ -15,6 +15,7 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ProductComponent } from './product/product.component';
 
 import { ListCardComponent } from './list-card/list-card.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { ListCardComponent } from './list-card/list-card.component';
     ContactFormComponent,
 
     ProductComponent,
-    ListCardComponent
+    ListCardComponent,
+    UserDetailsComponent
 
   ],
   imports: [
