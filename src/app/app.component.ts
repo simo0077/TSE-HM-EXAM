@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 
-import users from '../assets/users.json';
 
 
 @Component({

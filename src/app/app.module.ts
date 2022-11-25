@@ -19,8 +19,10 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { ListCardComponent } from './list-card/list-card.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { OrderDetailsComponent } from './order-details/order-details.component';
+import {FormsModule} from "@angular/forms";
 
 
+// @ts-ignore
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,8 +46,8 @@ import { OrderDetailsComponent } from './order-details/order-details.component';
     AppRoutingModule,
 
 
-    HttpClientModule
-
+    HttpClientModule,
+    FormsModule
 
 
   ],
