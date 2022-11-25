@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 
 
-import users from "../../assets/users.json";
+
 import {User} from "../Entities/Users";
 import {UserService} from "../user.service";
 

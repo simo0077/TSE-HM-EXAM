@@ -8,6 +8,7 @@ import {ContactFormComponent} from "./contact-form/contact-form.component";
 import {UserDetailsComponent} from "./user-details/user-details.component";
 
 import {ProductDetailsComponent} from "./product-details/product-details.component";
+import {OrderDetailsComponent} from "./order-details/order-details.component";
 
 
 const routes: Routes = [
@@ -15,10 +16,9 @@ const routes: Routes = [
   {path:'users-list',component:UsersListComponent},
   {path:'orders-list',component:OrdersListComponent},
   {path:'contact-form',component:ContactFormComponent},
-
   {path:'user/:id',component:UserDetailsComponent},
-
   {path:'product/:id',component:ProductDetailsComponent},
+  {path:'order/:id',component:OrderDetailsComponent},
 
 ];
 

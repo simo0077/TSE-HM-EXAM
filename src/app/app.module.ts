@@ -18,6 +18,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 
 import { ListCardComponent } from './list-card/list-card.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
+import { OrderDetailsComponent } from './order-details/order-details.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { UserDetailsComponent } from './user-details/user-details.component';
 
 
     ProductCardComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    OrderDetailsComponent
 
   ],
   imports: [
