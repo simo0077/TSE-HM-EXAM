@@ -1,0 +1,38 @@
+<h1> The details of order : {{order.id}} </h1>
+<hr>
+
+<form>
+  <div class="row justify-content-between">
+    <h2 class="col-2"><b> The user</b></h2>
+    <div class="col-2">
+      <button class="btn btn-primary" [routerLink]="['/user', order.user.id]">view more user details</button>
+
+    </div>
+  </div>
+  <br>
+
+  <div class="mb-3">
+    <label  class="form-label">First name</label>
+    <input type="text" class="form-control" disabled placeholder="{{order.user.first_name}}" >
+  </div>
+  <div class="mb-3">
+    <label  class="form-label">Last name</label>
+    <input type="text" class="form-control" disabled placeholder="{{order.user.last_name}}" >
+  </div>
+  <div class="mb-3">
+    <label  class="form-label">Email</label>
+    <input type="text" class="form-control" disabled placeholder="{{order.user.email}}" >
+  </div>
+  <br>
+  <h2> <b> The products</b></h2>
+  <div class="row align-items-center justify-content-around my-5" *ngFor="let product of order.products" style="background-color: #cfeded; border-radius: 20px">
+    <div class="col-2 m-3">
+      <img style="border-radius: 10px" src="{{product.image}}" alt="" height="70px">
+    </div>
+    <div class="col-3"><h3>{{product.label}}</h3></div>
+    <div class="col-3"><h4>{{product.price}}$</h4></div>
+    <div class="col-2"><button class="btn btn-success" [routerLink]="['/product', product.id]">view product details</button></div>
+
+  </div>
+
+</form>

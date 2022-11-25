@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "user": {
+      "id": 1,
+      "first_name": "Mari",
+      "last_name": "agacha",
+      "phone_number": "023561521",
+      "address": "rue 12",
+      "email": "agacha.mari@gmail.com"
+    },
+    "products": [
+      {
+        "id": 1,
+        "label": "product 1",
+        "description": "description",
+        "price": "111.11",
+        "image": "/assets/product_image.jpg"
+      },
+      {
+        "id": 2,
+        "label": "product 2",
+        "description": "description",
+        "price": "111.11",
+        "image": "/assets/product_image.jpg"
+      }
+    ]
+  }
+]
+
+
+
+
+
+

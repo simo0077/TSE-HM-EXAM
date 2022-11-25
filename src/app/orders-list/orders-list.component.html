@@ -1,1 +1,29 @@
-<p>orders-list works!</p>
+
+
+
+
+
+
+<h1> A list of all the products </h1>
+<hr>
+<div>
+  <table class="table">
+    <thead>
+    <tr class="table-info">
+      <th >last_name</th>
+      <th >order</th>
+      <th >options</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr  *ngFor="let item of OrdersList" >
+      <td >{{item.user.last_name}}</td>
+      <td  >{{item.id}}</td>
+      <td  ><button class="btn btn-primary" [routerLink]="['/order', item.id]" >Details</button></td>
+
+    </tr>
+    </tbody>
+  </table>
+</div>
+

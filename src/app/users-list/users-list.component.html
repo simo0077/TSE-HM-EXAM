@@ -9,7 +9,7 @@
 <div>
   <table class="table">
     <thead>
-    <tr class="table-info">
+    <tr class="table-info ">
       <th>first_name</th>
       <th >last_name</th>
       <th >email</th>
@@ -22,7 +22,7 @@
       <td >{{item.first_name}}</td>
       <td >{{item.last_name}}</td>
       <td  >{{item.email}}</td>
-      <td  ><button class="btn btn-secondary" [routerLink]="['/user', item.id]" >Details</button></td>
+      <td  ><button class="btn btn-primary" [routerLink]="['/user', item.id]" >Details</button></td>
 
     </tr>
     </tbody>
