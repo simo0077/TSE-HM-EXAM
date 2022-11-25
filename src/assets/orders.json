@@ -12,17 +12,17 @@
     "products": [
       {
         "id": 1,
-        "label": "product 1",
-        "description": "description",
-        "price": "111.11",
+        "label": "playstation 5",
+        "description": "playstation 5 avec disque neuve",
+        "price": "499.99",
         "image": "/assets/product_image.jpg"
       },
       {
         "id": 2,
-        "label": "product 2",
-        "description": "description",
-        "price": "111.11",
-        "image": "/assets/product_image.jpg"
+        "label": "manette ps5",
+        "description": "manette playstation 5 neuve blanche",
+        "price": "80.25",
+        "image": "/assets/manette.png"
       }
     ]
   }

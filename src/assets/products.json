@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "label": "product 1",
-    "description": "description",
-    "price": "111.11",
+    "label": "playstation 5",
+    "description": "playstation 5 avec disque neuve",
+    "price": "499.99",
     "image": "/assets/product_image.jpg"
   },
   {
     "id": 2,
-    "label": "product 2",
-    "description": "description",
-    "price": "111.11",
-    "image": "/assets/product_image.jpg"
+    "label": "manette ps5",
+    "description": "manette playstation 5 neuve blanche",
+    "price": "80.25",
+    "image": "/assets/manette.png"
   },
   {
     "id": 3,
-    "label": "product 3",
-    "description": "description",
-    "price": "111.11",
-    "image": "/assets/product_image.jpg"
+    "label": "iphone 14 pro ",
+    "description": "iphone 14 pro 256go blanc",
+    "price": "1279.99",
+    "image": "/assets/iphone.png"
   }
 ]
