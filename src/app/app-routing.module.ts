@@ -9,10 +9,12 @@ import {UserDetailsComponent} from "./user-details/user-details.component";
 
 import {ProductDetailsComponent} from "./product-details/product-details.component";
 import {OrderDetailsComponent} from "./order-details/order-details.component";
+import {WelcomeComponent} from "./welcome/welcome.component";
 
 
 const routes: Routes = [
   {path:'products-list',component:ProductsListComponent},
+  {path:'',component:WelcomeComponent},
   {path:'users-list',component:UsersListComponent},
   {path:'orders-list',component:OrdersListComponent},
   {path:'contact-form',component:ContactFormComponent},

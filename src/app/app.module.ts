@@ -20,6 +20,7 @@ import { ListCardComponent } from './list-card/list-card.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { OrderDetailsComponent } from './order-details/order-details.component';
 import {FormsModule} from "@angular/forms";
+import { WelcomeComponent } from './welcome/welcome.component';
 
 
 // @ts-ignore
@@ -38,7 +39,8 @@ import {FormsModule} from "@angular/forms";
 
     ProductCardComponent,
     ProductDetailsComponent,
-    OrderDetailsComponent
+    OrderDetailsComponent,
+    WelcomeComponent
 
   ],
   imports: [
